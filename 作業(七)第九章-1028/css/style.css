@@ -1,0 +1,49 @@
+.box11{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid blue;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 0px;
+    margin-left: 45px;
+}
+.box12{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border: 2px solid blue;
+    border-radius: 60px 60px 0 0;
+    text-align: center;
+    line-height: 200px;
+    margin: 20px;
+}
+.box13{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 200px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px  gray;
+    background: pink;
+    margin: 20px;
+}
+.box14{
+    width: 1500px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: linear-gradient(#0000CC ,#5555FF);
+    margin: 20px;
+}
+.box15{
+    width: 1500px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: linear-gradient(to right,#00BBFF,#0066FF);
+    margin: 20px;
+}
