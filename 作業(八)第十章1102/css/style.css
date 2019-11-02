@@ -1,0 +1,247 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 1002px;
+	margin: 0 auto;
+}
+.header{
+	height: 500px;
+}
+.header .topbar{
+	height: 60px;
+	background: #DDDDDD;
+}
+.header ul{
+	width: 200px;
+	height: 60px;
+	float: right;
+}
+.header ul li{
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+}
+.header .topbar ul li a{
+	text-decoration: none;
+	color: #0000FF;
+}
+.header .topmenu{
+	height: 50px;
+}
+.header .topmenu h1{
+	width: 300px;
+	height: 50px;
+	float: left;
+}
+.header .topmenu h1 a{
+	height: 50px;
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.header .topmenu ul{
+	width: 300px;
+	height: 50px;
+	float: right;
+}
+.header .topmenu ul li{
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+}
+.header .topmenu ul li a{
+	text-decoration: none;
+	color:#CC6600;
+}
+.header .banner{
+	background: url(../img/banner.png) no-repeat;
+	width:1002px;
+	height: 346px;
+	position: relative;
+}
+.header .center{
+	width: 1002px;
+	height: 150px;
+	background-color: #DDDDDD;
+	opacity:0.5;
+	position: absolute;
+	top: 25%;
+	left: 0%;	
+}
+.header .center p{
+	padding: 15px;
+	font-size: 38px;
+	color: 	blue;
+}
+.content1{
+	width: 1002px;
+	height: 350px;	
+}
+.content1 ul{
+	width: 1002px;
+	height: 350px;
+}
+.content1 .img{
+	width: 300px;
+	height: 150px;
+}
+.content1 img{
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.content1 li{
+	width: 300px;
+	height: 350px;
+	border: 2px solid 	#DDDDDD;
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+	text-align: center;
+}
+.content2{
+	width: 1002px;
+	height: 380px;
+}
+.content2 h2{
+	font-size: 38px;
+	margin: 20px;
+	text-align: center;
+	color: 	#E63F00;
+}
+.content2 table{
+	width: 1002px;
+	height: 250px;	
+	margin-bottom: 20px;
+}
+.content2 table th{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #FFFFBB;
+}
+.content2 table td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.content3{
+	width: 1002px;
+	height: 380px;
+}
+.content3 .blue{
+	width: 1002px;
+	height: 380px;
+	background: url(../img/blue.png) repeat;
+	background: linear-gradient(#000088,#7744FF);
+}
+.content .blue h2{
+	color: yellow;
+	font-size: 28px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.content3 form{
+	width: 1002px;
+	height: 280px;
+}
+.left{
+	width: 400px;
+	height: 280px;
+	float: left;
+	margin-left: 40px;
+}
+.right{
+	color: yellow;
+	width: 300px;
+	height: 280px;
+	float: right;
+	font-size: 25px;
+}
+.footer{
+	margin-top:20px; 
+	background:#EEFFBB;
+	width: 1002px; 
+	height: 60px;
+	float: left;	
+}
+.footer img{
+	margin: 15px;
+	width: 171px;
+	height: 36px;
+	float: left;
+}
+.footer .footerRight{
+	width: 300px;
+	height: 36px;
+	font-size: 15px;
+	float: right; 
+}
+.footer h2{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
