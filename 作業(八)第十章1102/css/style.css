@@ -146,6 +146,7 @@ table {
 	width: 300px;
 	height: 350px;
 	border: 2px solid 	#DDDDDD;
+	box-shadow: 2px 2px 8px gray;
 	float: left;
 	margin-right: 15px;
 	margin-left: 15px;
@@ -191,11 +192,11 @@ table {
 }
 .content3{
 	width: 1002px;
-	height: 380px;
+	height: 385px;
 }
 .content3 .blue{
 	width: 1002px;
-	height: 380px;
+	height: 385px;
 	background: url(../img/blue.png) repeat;
 	background: linear-gradient(#000088,#7744FF);
 }
@@ -223,7 +224,7 @@ table {
 	font-size: 25px;
 }
 .footer{
-	margin-top:20px; 
+	margin-top:10px; 
 	background:#EEFFBB;
 	width: 1002px; 
 	height: 60px;
